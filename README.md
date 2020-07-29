@@ -1,7 +1,7 @@
 # Workout Tracker
 BootCampSpot Web Development - Week 12 Homework
 
-![Preview]()
+![Preview](https://github.com/BCS-WebDev/Week12-Homework/blob/master/public/assets/FitnessTracker.gif)
 
 ## Notes on MongoDB & Mongoose
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project serves us in getting used to a nosql database
@@ -35,7 +35,7 @@ Install `node.js` and run `npm install` to install the necessary node packages.
     - Run `node server.js` to start the server.
     - Open a web browser and navigate to localhost:3000.
 * For use:
-    - 
+    - https://salty-everglades-29438.herokuapp.com/
 
 ## Questions
 Contact: kevin1choi@gmail.com
