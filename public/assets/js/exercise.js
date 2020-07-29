@@ -57,19 +57,19 @@ function validateInputs() {
       isValid = false;
     }
 
-    if (weightInput.value.trim() === "") {
+    if (weightInput.value.trim() === "" || parseInt(weightInput.value.trim()) < 0) {
       isValid = false;
     }
 
-    if (setsInput.value.trim() === "") {
+    if (setsInput.value.trim() === "" || parseInt(setsInput.value.trim()) < 0) {
       isValid = false;
     }
 
-    if (repsInput.value.trim() === "") {
+    if (repsInput.value.trim() === "" || parseInt(repsInput.value.trim()) < 0) {
       isValid = false;
     }
 
-    if (resistanceDurationInput.value.trim() === "") {
+    if (resistanceDurationInput.value.trim() === "" || parseInt(resistanceDurationInput.value.trim()) < 0) {
       isValid = false;
     }
   } else if (workoutType === "cardio") {
@@ -77,11 +77,11 @@ function validateInputs() {
       isValid = false;
     }
 
-    if (durationInput.value.trim() === "") {
+    if (durationInput.value.trim() === "" || parseInt(durationInput.value.trim()) < 0) {
       isValid = false;
     }
 
-    if (distanceInput.value.trim() === "") {
+    if (distanceInput.value.trim() === "" || parseInt(distanceInput.value.trim()) < 0) {
       isValid = false;
     }
   }
